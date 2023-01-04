@@ -15,7 +15,7 @@ This project can be separated into 3 parts:
 
 ## Run This Project
 
-To run this project, please create `venv` using `requirements.txt` to install all dependencies and activate it. You also need to have MySQL database installed with pre-created database named "fmp-stock". And lastly, you can get `API_KEY` from https://site.financialmodelingprep.com/developer/docs/, then edit configuration in `config.py`.
+To run this project, please create `venv` using `requirements.txt` to install all dependencies and activate it. You also need to have MySQL database installed with pre-created database named "fmp_stock". And lastly, you can get `API_KEY` from https://site.financialmodelingprep.com/developer/docs/, then edit configuration in `config.py`.
 
 After all these steps done, run the command:
 
