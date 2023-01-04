@@ -10,14 +10,14 @@ Please note that the historical dividends also requires examples of stock symbol
 
 This project can be separated into 3 parts:
 1. `main.py` controls is the pipeline of the ingestion.
-2. `helpers.py` contains helper funtions that are required.
-3. `config.py` is where you can fill your own configuration and credentials
+2. `helpers.py` contains helper functions that are required.
+3. `config.py` is where you can fill your own configuration and credentials.
 
 ## Run This Project
 
 To run this project, please create `venv` using `requirements.txt` to install all dependencies and activate it. You also need to have MySQL database installed with pre-created database named "fmp-stock". And lastly, you can get `API_KEY` from https://site.financialmodelingprep.com/developer/docs/, then edit configuration in `config.py`.
 
-After all these steps done, run the command
+After all these steps done, run the command:
 
 ```
 python main.py
