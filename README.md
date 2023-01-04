@@ -9,7 +9,7 @@ There are 2 endpoints that this project covers:
 Please note that the historical dividends also requires examples of stock symbol, in this case, we use `['AAPL', 'TSLA']`.
 
 This project can be separated into 3 parts:
-1. `main.py` controls is the pipeline of the ingestion.
+1. `main.py` controls the pipeline of the ingestion.
 2. `helpers.py` contains helper functions that are required.
 3. `config.py` is where you can fill your own configuration and credentials.
 
